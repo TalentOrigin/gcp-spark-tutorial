@@ -7,7 +7,6 @@ object UdfExampleApproach1 {
   def main(args: Array[String]): Unit = {
     val spark  = SparkSession
       .builder()
-      .master("local")
       .appName("Spark UDF Using Curry Functions")
       .getOrCreate()
 
